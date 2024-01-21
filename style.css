@@ -1,0 +1,134 @@
+body {
+	font-family: 'Fredoka', sans-serif;
+	background-image: url(images/bg.jpg);
+	background
+}
+.arava-logo {
+	width: 180px;
+	filter: opacity(10);
+
+}
+.arava-logo:hover{
+	width: 180px;
+	filter: brightness(2);
+	
+}
+.intro {
+	position: absolute;
+	top: 50%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.aravaent {
+	color: #ff0000;
+	font-weight: bold;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+
+}
+ul li  {
+	display: inline-block;
+	margin-right: 35px;
+}
+ul li a {
+	color: #fff;
+	list-style: none;
+	font-size: 15px;
+	text-decoration: none;
+
+}
+#spotlight {
+	margin-top: 15%;
+	text-align: center;
+}
+.spotlight-text {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+}
+.spotlight-text-under {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.search-button {
+	width: 190px;
+	height: 50px;
+	font-size: 23px;
+	border-radius: 17px;
+	border-color: transparent;
+	background: #1d8ad3;
+	color: #fff;
+}
+.search-button:hover {
+	width: 190px;
+	height: 50px;
+	font-size: 23px;
+	border-radius: 17px;
+	border-color: transparent;
+	background: #6763dd;
+	color: #fff;
+}
+@media only screen and (max-width: 1134px) {
+	#spotlight {
+	margin-top: 20%;
+	text-align: center;
+}
+@media only screen and (max-width: 679px) {
+	#spotlight {
+	margin-top: 40%;
+	text-align: center;
+}
+.spotlight-text {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+}
+@media only screen and (max-width: 485px) {
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media only screen and (max-width: 475px) {
+	#spotlight {
+	margin-top: 40%;
+	text-align: center;
+}
+.spotlight-text {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+.search-button {
+	width: 140px;
+	height: 40px;
+	font-size: 23px;
+	border-radius: 17px;
+	border-color: transparent;
+	background: #1d8ad3;
+	color: #fff;
+}
+@media only screen and (max-width: 307px) {
+	ul li a {
+	color: #fff;
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+ul li  {
+	display: inline-block;
+	margin-right: 15px;
+}
+}
+}
